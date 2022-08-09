@@ -1,0 +1,13 @@
+@import "vars"; // Переменные
+@import "reset"; // Сброс стилей
+@import "global"; // Подключение глбальных стилей
+
+//  Подключение стилей блоков
+@import "components/container";
+@import "components/header";
+@import "components/menu";
+@import "components/submenu";
+@import "components/button";
+@import "components/logo";
+@import "components/blog";
+@import "components/blog-card";

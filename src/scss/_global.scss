@@ -1,0 +1,32 @@
+.html {
+  height: 100%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background-color: $white;
+}
+
+.overflow-hidden-body {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  flex-grow: 1;
+
+  @media #{$screen-tablet} {
+    padding-top: 86px;
+  }
+}
+
